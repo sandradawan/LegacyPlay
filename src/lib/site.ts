@@ -27,10 +27,8 @@ export const site = {
 
   // --- Opening hours ---
   hours: [
-    { day: "Mon – Thu", time: "12:00 PM – 11:00 PM" },
-    { day: "Fri", time: "12:00 PM – 1:00 AM" },
-    { day: "Sat", time: "10:00 AM – 1:00 AM" },
-    { day: "Sun", time: "10:00 AM – 11:00 PM" },
+    { day: "Mon – Sat", time: "8:00 AM – 10:00 PM" },
+    { day: "Sun", time: "12:00 PM – 10:00 PM" },
   ],
 
   // --- Socials (TODO: your real handles; leave "" to hide) ---
@@ -43,14 +41,12 @@ export const site = {
 } as const;
 
 // --- Hero slideshow images (files live in /public) ---
-// Alternate game art also available in /public: cod-mwii.jpg, mk1.jpg
-// (swap any src below to change a slide).
 export const heroSlides = [
-  { src: "/cod-bo3.jpg", alt: "Call of Duty action" },
-  { src: "/mk11.jpg", alt: "Mortal Kombat fighter" },
-  { src: "/football-4.jpg", alt: "Live football match action on the pitch" },
-  { src: "/football-5.jpg", alt: "Night football match under the lights" },
-  { src: "/football-2.jpg", alt: "Aerial view of a football pitch" },
+  { src: "/football-1.jpeg", alt: "EA Sports FC 26" },
+  { src: "/football-2.jpeg", alt: "Mortal Kombat" },
+  { src: "/football-3.jpeg", alt: "EA Sports FC 26" },
+  { src: "/football-4.jpeg", alt: "Mortal Kombat fighters" },
+  { src: "/football-5.jpeg", alt: "Need for Speed: Most Wanted" },
 ];
 
 // --- CEO / Founder bio ---
@@ -70,7 +66,7 @@ export const ceo = {
 export const offerings = [
   {
     title: "PlayStation 5",
-    price: "₦500 / hour",
+    price: "₦500 / 10 min",
     blurb:
       "The latest console — lightning-fast loads, stunning 4K visuals, and the newest games.",
     features: [
@@ -83,7 +79,7 @@ export const offerings = [
   },
   {
     title: "PlayStation 4",
-    price: "₦300 / hour",
+    price: "₦300 / 10 min",
     blurb:
       "A massive library of hits and classics. Perfect for FIFA, COD, and squad nights.",
     features: [
@@ -96,7 +92,7 @@ export const offerings = [
   },
   {
     title: "PlayStation 3",
-    price: "₦200 / hour",
+    price: "₦200 / 10 min",
     blurb:
       "Budget-friendly nostalgia. Relive the classics that defined a generation.",
     features: [

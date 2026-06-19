@@ -7,7 +7,7 @@ export default function Offerings() {
       id="offerings"
       eyebrow="Play"
       title="Pick your station"
-      subtitle="Hourly rates, no membership needed. Book ahead on busy nights to lock your spot."
+      subtitle="Pay-as-you-play rates, no membership needed. Book ahead on busy nights to lock your spot."
     >
       <div className="grid gap-6 md:grid-cols-3">
         {offerings.map((o) => (
